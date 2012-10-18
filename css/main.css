@@ -1,0 +1,39 @@
+/* ==========================================================================
+   Author: Peter Magenheimer
+   ========================================================================== */
+
+hr {
+  width: 60%;
+  margin: 40px auto;
+}
+
+.masthead {
+  background: url("img/web-work-header.jpg") no-repeat center center;
+  margin-bottom: 50px;
+}
+
+.masthead .container {
+  padding: 100px 0 150px;
+}
+
+.project {
+  margin-bottom: 30px;
+}
+
+.project h3 {
+  background: #DDD;
+  padding-left: 1000px;
+  margin-left: -1000px;
+}
+
+.project .carousel {
+  -webkit-box-shadow: 0 10px 25px -9px #222;
+     -moz-box-shadow: 0 10px 25px -9px #222;
+          box-shadow: 0 10px 25px -9px #222;
+}
+
+/*
+.masthead .container {
+  position: absolute;
+  top: 0;
+}*/
