@@ -63,6 +63,15 @@ html.web-work .masthead {
   padding-left: 9025px;
 }
 
+.features {
+  margin-bottom: 30px;
+}
+
+.features h3 {
+  font-size: 30px;
+  line-height: 36px;
+}
+
 .project {
   margin-bottom: 30px;
 }
