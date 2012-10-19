@@ -10,6 +10,12 @@ hr {
 .masthead {
   background: url("img/web-work-header.jpg") no-repeat center center;
   margin-bottom: 50px;
+  -webkit-box-shadow: inset 0 -15px 60px -20px rgba(0, 0, 0, 0.8), 
+                      inset 0 15px 40px -10px rgba(0, 0, 0, 0.8);
+     -moz-box-shadow: inset 0 -15px 60px -20px rgba(0, 0, 0, 0.8), 
+                      inset 0 15px 40px -10px rgba(0, 0, 0, 0.8);
+          box-shadow: inset 0 -15px 60px -20px rgba(0, 0, 0, 0.8), 
+                      inset 0 15px 40px -10px rgba(0, 0, 0, 0.8);
 }
 
 .masthead .container {
