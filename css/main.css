@@ -2,6 +2,12 @@
    Author: Peter Magenheimer
    ========================================================================== */
 
+body {
+  font-family: "Chaparral Pro", serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Proxima Nova", sans-serif;
 }
