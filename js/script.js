@@ -4,6 +4,11 @@ $(function() {
         var galleryControls = $(galleryInner).next('.gallery-controls');
         var slider = new Swipe(galleryInner);
 
+        galleryControls.find('.prev').click(function() {
+            slider.prev();
+            return false;
+        });
+
         galleryControls.find('.next').click(function() {
             slider.next();
             return false;
