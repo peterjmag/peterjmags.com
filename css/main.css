@@ -184,3 +184,9 @@ html.print-work .masthead {
     margin-left: -20px;
   }
 }
+
+@media (min-width: 980px) {
+  .project .span8 .details {
+    padding-right: 14.52991452991453%
+  }
+}
