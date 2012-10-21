@@ -173,6 +173,13 @@ html.about .masthead {
           border-radius: 23px;
   opacity: 0.5;
   filter: alpha(opacity=50);
+  -webkit-transition: 0.3s;
+     -moz-transition: 0.3s;
+          transition: 0.3s;
+}
+
+.gallery-controls .prev {
+  opacity: 0;
 }
 
 .gallery-controls .next {
