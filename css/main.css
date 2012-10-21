@@ -65,59 +65,11 @@ li {
 }
 
 .masthead {
-  min-height: 500px;
-  color: #FFF;
-  text-shadow: 2px 3px 1px #222;
-  background: url("img/home-header.jpg") no-repeat center center;
-  margin-bottom: 30px;
-  -webkit-box-shadow: inset 0 -25px 60px -20px rgba(0, 0, 0, 0.8);
-     -moz-box-shadow: inset 0 -25px 60px -20px rgba(0, 0, 0, 0.8);
-          box-shadow: inset 0 -25px 60px -20px rgba(0, 0, 0, 0.8);
-}
-
-html.home .masthead {
-  background-image: url("img/home-header.jpg");
-}
-
-html.portfolio .masthead {
-  margin-bottom: 50px;
-}
-
-html.web-work .masthead {
-  background-image: url("img/web-work-header.jpg");
-}
-
-html.print-work .masthead {
-  background-image: url("img/home-header.jpg");
-}
-
-html.about .masthead {
-  background-image: url("img/web-work-header.jpg");
-}
-
-.masthead .container {
-  padding-top: 120px;
-}
-
-.masthead h1 {
-  font-size: 75px;
-  line-height: 95px;
+  background: no-repeat center center;
 }
 
 .masthead h2 {
-  font-size: 45px;
-  line-height: 65px;
   font-weight: normal;
-}
-
-.masthead span {
-  background: rgba(0, 0, 0, 0.6);
-  padding: 5px 25px;
-}
-
-.masthead h1 span {
-  margin-left: -9000px;
-  padding-left: 9025px;
 }
 
 .features {
@@ -234,13 +186,66 @@ html.about .masthead {
 */
 
 @media (min-width: 768px) {
+  .masthead {
+    color: #FFF;
+    text-shadow: 2px 3px 1px #222;
+    margin-bottom: 30px;
+    -webkit-box-shadow: inset 0 -25px 60px -20px rgba(0, 0, 0, 0.8);
+       -moz-box-shadow: inset 0 -25px 60px -20px rgba(0, 0, 0, 0.8);
+            box-shadow: inset 0 -25px 60px -20px rgba(0, 0, 0, 0.8);
+  }
+
+  html.home .masthead {
+    background-image: url("img/home-header.jpg");
+  }
+
+  html.portfolio .masthead {
+    margin-bottom: 50px;
+  }
+
+  html.web-work .masthead {
+    background-image: url("img/web-work-header.jpg");
+  }
+
+  html.print-work .masthead {
+    background-image: url("img/home-header.jpg");
+  }
+
+  html.about .masthead {
+    background-image: url("img/web-work-header.jpg");
+  }
+
+  html.contact .masthead {
+    background-image: url("img/home-header.jpg");
+  }
+
+  .masthead h1 {
+    font-size: 60px;
+    line-height: 75px;
+  }
+
+  .masthead h2 {
+    font-size: 35px;
+    line-height: 52px;
+  }
+
+  .masthead span {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 5px 25px;
+  }
+
+  .masthead h1 span {
+    margin-left: -9000px;
+    padding-left: 9025px;
+  }
+
   .project.column2 h3 {
     padding-left: 20px;
     margin-left: -20px;
   }
 }
 
-@media (max-width: 979px) {
+@media (max-width: 979px) and (min-width: 768px) {
   .web-project [class*="span"],
   .web-project .row-fluid [class*="span"] {
     display: block;
@@ -254,7 +259,47 @@ html.about .masthead {
 }
 
 @media (min-width: 980px) {
+  .masthead h1 {
+    font-size: 75px;
+    line-height: 95px;
+  }
+
+  .masthead h2 {
+    font-size: 45px;
+    line-height: 65px;
+  }
+
   .project .span8 .details {
     padding-right: 14.52991452991453%
+  }
+}
+
+@media (min-height: 750px) and (min-width: 768px) {
+  .masthead {
+    min-height: 500px;
+  }
+  
+  .masthead .container {
+    padding-top: 120px;
+  }
+}
+
+@media (max-height: 749px) and (min-width: 768px) {
+  .masthead {
+    min-height: 340px;
+  }
+
+  .masthead .container {
+    padding-top: 60px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .masthead {
+    min-height: 340px;
+  }
+
+  .masthead .container {
+    padding-top: 60px;
   }
 }
