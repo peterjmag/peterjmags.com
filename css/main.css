@@ -27,6 +27,14 @@ dd {
   margin: 0 0 1em 0;
 }
 
+ul, ol {
+  margin-left: 0;
+}
+
+li {
+  line-height: 24px;
+}
+
 .navbar {
   -webkit-box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
      -moz-box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
@@ -67,6 +75,10 @@ html.web-work .masthead {
 
 html.print-work .masthead {
   background: url("img/home-header.jpg") no-repeat center center;
+}
+
+html.about .masthead {
+  background: url("img/web-work-header.jpg") no-repeat center center;
 }
 
 .masthead .container {
