@@ -146,6 +146,10 @@ html.about .masthead {
   margin-bottom: 30px;
 }
 
+.web-project .span4 {
+  padding-right: 2.9914529914529915%
+}
+
 .gallery li {
   display: none;
 }
