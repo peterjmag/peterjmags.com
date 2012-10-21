@@ -38,6 +38,10 @@ html.web-work .masthead {
   background: url("img/web-work-header.jpg") no-repeat center center;
 }
 
+html.print-work .masthead {
+  background: url("img/home-header.jpg") no-repeat center center;
+}
+
 .masthead .container {
   padding-top: 120px;
 }
@@ -146,7 +150,37 @@ html.web-work .masthead {
 }
 
 /*
+.print-project {
+  margin-left: 2.9914529914529915%
+}
+*/
+
+.print-project p {
+  margin-top: 30px;
+}
+
+.print-project .details {
+  margin-bottom: 30px;
+}
+
+.print-project .details p {
+  margin-top: 10px;
+}
+
+.print-project .light-border {
+  border: 2px solid #DDD;
+}
+
+/*
 .masthead .container {
   position: absolute;
   top: 0;
-}*/
+}
+*/
+
+@media (min-width: 768px) {
+  .project.column2 h3 {
+    padding-left: 20px;
+    margin-left: -20px;
+  }
+}
