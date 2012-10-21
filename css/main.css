@@ -240,6 +240,19 @@ html.about .masthead {
   }
 }
 
+@media (max-width: 979px) {
+  .web-project [class*="span"],
+  .web-project .row-fluid [class*="span"] {
+    display: block;
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+}
+
 @media (min-width: 980px) {
   .project .span8 .details {
     padding-right: 14.52991452991453%
