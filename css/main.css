@@ -184,7 +184,7 @@ html.about .masthead {
   filter: alpha(opacity=50);
 }
 
-.gallery-controls .right {
+.gallery-controls .next {
   right: 15px;
   left: auto;
 }
