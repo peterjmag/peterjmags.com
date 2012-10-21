@@ -59,26 +59,31 @@ li {
   min-height: 500px;
   color: #FFF;
   text-shadow: 2px 3px 1px #222;
-  margin-bottom: 50px;
+  background: url("img/home-header.jpg") no-repeat center center;
+  margin-bottom: 30px;
   -webkit-box-shadow: inset 0 -25px 60px -20px rgba(0, 0, 0, 0.8);
      -moz-box-shadow: inset 0 -25px 60px -20px rgba(0, 0, 0, 0.8);
           box-shadow: inset 0 -25px 60px -20px rgba(0, 0, 0, 0.8);
 }
 
 html.home .masthead {
-  background: url("img/home-header.jpg") no-repeat center center;
+  background-image: url("img/home-header.jpg");
+}
+
+html.portfolio .masthead {
+  margin-bottom: 50px;
 }
 
 html.web-work .masthead {
-  background: url("img/web-work-header.jpg") no-repeat center center;
+  background-image: url("img/web-work-header.jpg");
 }
 
 html.print-work .masthead {
-  background: url("img/home-header.jpg") no-repeat center center;
+  background-image: url("img/home-header.jpg");
 }
 
 html.about .masthead {
-  background: url("img/web-work-header.jpg") no-repeat center center;
+  background-image: url("img/web-work-header.jpg");
 }
 
 .masthead .container {
