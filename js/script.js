@@ -8,5 +8,14 @@ $(function() {
             slider.next();
             return false;
         });
+
+        if (this.id == 'gallery-01') {
+            window.setTimeout(function() {
+                slider.next();
+            }, 1000);
+            window.setTimeout(function() {
+                slider.prev();
+            }, 1600);
+        }
     });
 });
