@@ -150,17 +150,7 @@ html.about .masthead {
 
 .gallery-controls {
   position: relative;
-  color: #BBB;
-  font-size: 20px;
-  text-align: center;
-}
-
-.gallery-controls span {
-  padding: 0 2px;
-}
-
-.gallery-controls .on {
-  color: #333;
+  min-height: 20px;
 }
 
 .gallery-controls a {
@@ -170,9 +160,10 @@ html.about .masthead {
   width: 40px;
   height: 40px;
   margin-top: -20px;
-  font-size: 60px;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 40px;
   font-weight: 100;
-  line-height: 30px;
+  line-height: 35px;
   color: #ffffff;
   text-align: center;
   background: #222222;
