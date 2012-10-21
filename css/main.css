@@ -17,6 +17,15 @@ hr {
   margin: 40px auto;
 }
 
+dt {
+  font-weight: normal;
+  font-style: italic;
+}
+
+dd {
+  margin: 0 0 1em 0;
+}
+
 .masthead {
   min-height: 500px;
   color: #FFF;
