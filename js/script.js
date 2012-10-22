@@ -9,6 +9,10 @@ var toggleButton = function(button, pos) {
 };
 
 $(function() {
+    $(".navbar select").change(function() {
+      window.location = $(this).find("option:selected").val();
+    });
+
     $('.swipe').each(function() {
         var galleryInner = $(this).children('.gallery-inner')[0];
         var galleryControls = $(galleryInner).next('.gallery-controls');
