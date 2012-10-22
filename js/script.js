@@ -13,6 +13,11 @@ $(function() {
       window.location = $(this).find("option:selected").val();
     });
 
+    $(".alert").alert();
+    $('.browser-compatibility').bind('closed', function () {
+      $(this).parent('.alert-container').addClass('empty');
+    });
+
     $('.swipe').each(function() {
         var galleryInner = $(this).children('.gallery-inner')[0];
         var galleryControls = $(galleryInner).next('.gallery-controls');

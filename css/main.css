@@ -115,6 +115,18 @@ html.contact .masthead {
   margin-bottom: 30px;
 }
 
+.alert-container {
+  margin-bottom: 0;
+  -webkit-transition: margin-bottom .25s linear;
+     -moz-transition: margin-bottom .25s linear;
+       -o-transition: margin-bottom .25s linear;
+          transition: margin-bottom .25s linear;
+}
+
+.alert-container.empty {
+  margin-bottom: -30px;
+}
+
 .browser-compatibility.alert-info {
   color: #222;
 }
