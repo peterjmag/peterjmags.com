@@ -115,6 +115,14 @@ html.contact .masthead {
   margin-bottom: 30px;
 }
 
+.browser-compatibility.alert-info {
+  color: #222;
+}
+
+.browser-compatibility h4 {
+  margin: 10px 0 6px;
+}
+
 .web-project .span4 {
   padding-right: 2.9914529914529915%
 }
