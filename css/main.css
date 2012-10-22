@@ -139,11 +139,12 @@ html.contact .masthead {
   padding-right: 2.9914529914529915%
 }
 
-.gallery li {
+.gallery-inner li {
+  list-style: none;
   display: none;
 }
 
-.gallery .active {
+.gallery-inner .active {
   display: block;
 }
 
