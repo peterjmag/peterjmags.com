@@ -56,20 +56,45 @@ li {
 }
 
 .masthead {
+  color: #FFF;
+  text-shadow: 2px 3px 1px #222;
   background: no-repeat center center;
+  margin: 0 -20px 15px;
+  padding: 20px 0;
+}
+
+.masthead h1,
+.masthead h2 {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 5px 20px;
 }
 
 .masthead h2 {
   font-weight: normal;
 }
 
-.features {
-  margin-bottom: 30px;
+html.home .masthead {
+  background-image: url("img/home-header-770.jpg");
 }
 
-.features h3 {
-  font-size: 30px;
-  line-height: 36px;
+html.web-work .masthead {
+  background-image: url("img/web-work-header-770.jpg");
+}
+
+html.print-work .masthead {
+  background-image: url("img/home-header-770.jpg");
+}
+
+html.about .masthead {
+  background-image: url("img/web-work-header-770.jpg");
+}
+
+html.contact .masthead {
+  background-image: url("img/home-header-770.jpg");
+}
+
+.features {
+  margin-bottom: 30px;
 }
 
 .project {
@@ -216,12 +241,18 @@ li {
   }
 
   .masthead {
-    color: #FFF;
-    text-shadow: 2px 3px 1px #222;
+    margin-left: 0;
+    margin-right: 0;
     margin-bottom: 30px;
     -webkit-box-shadow: inset 0 -25px 60px -20px rgba(0, 0, 0, 0.8);
        -moz-box-shadow: inset 0 -25px 60px -20px rgba(0, 0, 0, 0.8);
             box-shadow: inset 0 -25px 60px -20px rgba(0, 0, 0, 0.8);
+  }
+
+  .masthead h1,
+  .masthead h2 {
+    background: none;
+    padding: 5px 25px;
   }
 
   html.home .masthead {
@@ -266,6 +297,11 @@ li {
   .masthead h1 span {
     margin-left: -9000px;
     padding-left: 9025px;
+  }
+
+  .features h3 {
+    font-size: 30px;
+    line-height: 36px;
   }
 
   .project.column2 h3 {
