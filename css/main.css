@@ -82,15 +82,15 @@ html.web-work .masthead {
 }
 
 html.print-work .masthead {
-  background-image: url("img/home-header-770.jpg");
+  background-image: url("img/rome-cogs-770.jpg");
 }
 
 html.about .masthead {
-  background-image: url("img/web-work-header-770.jpg");
+  background-image: url("img/berlin-dome-770.jpg");
 }
 
 html.contact .masthead {
-  background-image: url("img/home-header-770.jpg");
+  background-image: url("img/florence-sign-770.jpg");
 }
 
 .features {
@@ -270,15 +270,15 @@ html.contact .masthead {
   }
 
   html.print-work .masthead {
-    background-image: url("img/home-header.jpg");
+    background-image: url("img/rome-cogs.jpg");
   }
 
   html.about .masthead {
-    background-image: url("img/web-work-header.jpg");
+    background-image: url("img/berlin-dome.jpg");
   }
 
   html.contact .masthead {
-    background-image: url("img/home-header.jpg");
+    background-image: url("img/florence-sign.jpg");
   }
 
   .masthead h1 {
