@@ -1,0 +1,289 @@
+{% extends "_base.html" %}
+{% set page_title = "Web Portfolio" %}
+{% set root_classes = "web-work portfolio" %}
+{% set active_page = "web-work" %}
+{% set page_h1 = "<span>Web work</span>" %}
+{% set page_h2 = "<span>Client sites, weekend projects, </span><br><span>and everything in between.</span>" %}
+{% block body %}
+
+    <div class="container">
+      <article class="project web-project row-fluid">
+        <div class="span4">
+          <h3>Animated Pixel Font</h3>
+          <h4>Pure CSS3 experiment</h4>
+          <p>Inspired by a raft of cool CSS experiments popping up everywhere, I challenged myself one weekend to build an animated typeface using only HTML and CSS. (Web nerd bonus: Try turning off JavaScript.)</p>
+          <p>The layout responds to allow for a range of desktop browser sizes.</p>
+          <dl>
+            <dt>My role:</dt>
+            <dd>Concept, design, development</dd>
+            <dt>Browser compatibility:</dt>
+            <dd>Chrome, Safari, Firefox</dd>
+          </dl>
+          <p><a href="http://peterjmags.com/css3-animated-type/">View project</a><br>
+          <a href="https://github.com/peterjmag/css3-animated-type">View on GitHub</a></p>
+        </div>
+        <div id="gallery-01" class="span8 swipe">
+          <div class="gallery-inner">
+            <ul>
+              <li class="active">
+                <img src="img/css3-animated-typeface-1.png" alt="CSS3 Animated Typeface">
+              </li>
+              <li>
+                <img src="img/css3-animated-typeface-2.png" alt="CSS3 Animated Typeface">
+              </li>
+            </ul>
+          </div>
+          <div class="gallery-controls">
+            <a class="prev" href="#">&lsaquo;</a>
+            <a class="next" href="#">&rsaquo;</a>
+          </div>
+        </div>
+      </article>
+      <div class="row-fluid alert-container">
+        <aside class="browser-compatibility span8 offset2 alert alert-info fade in">
+          <a class="close" data-dismiss="alert" href="#">&times;</a>
+          <h4>A note on browser compatibility</h4>
+          <p>My personal projects tend to be of a more experimental nature, so not all of them will work across all browsers. However, for public-facing client projects, I carefully tweak and test every site for compatibility with all major browsers, including two or three major versions of Internet Explorer. Each project on this page specifies the browsers with which they are compatible.</p>
+        </aside>
+      </div>
+      <hr>
+
+      <article class="project web-project row-fluid">
+        <div class="span4">
+          <h3>The Caffeine Machine</h3>
+          <h4>Programming challenge entry</h4>
+          <p>My entry for one of <a href="http://www.thumbtack.com/challenges">Thumbtack's programming challenges</a>, which involved building a functional, realistic slot machine in CSS and JavaScript. Check out the <a href="https://github.com/peterjmag/caffeine-machine#readme">readme</a> for more about my approach.</p>
+          <dl>
+            <dt>My role:</dt>
+            <dd>Design, development</dd>
+            <dt>Browser compatibility:</dt>
+            <dd>Chrome, Safari, experimental Firefox support</dd>
+          </dl>
+          <p><a href="http://peterjmags.com/caffeine-machine/">View project</a><br>
+          <a href="https://github.com/peterjmag/caffeine-machine">View on GitHub</a></p>
+        </div>
+        <div id="gallery-02" class="span8 swipe">
+          <div class="gallery-inner">
+            <ul>
+              <li class="active">
+                <img src="img/caffeine-machine-1.jpg" alt="The Caffeine Machine">
+              </li>
+              <li>
+                <img src="img/caffeine-machine-2.jpg" alt="The Caffeine Machine">
+              </li>
+            </ul>
+          </div>
+          <div class="gallery-controls">
+            <a class="prev" href="#">&lsaquo;</a>
+            <a class="next" href="#">&rsaquo;</a>
+          </div>
+        </div>
+      </article>
+      <hr>
+
+      <article class="project web-project row-fluid">
+        <div class="span4">
+          <h3>Publishr</h3>
+          <h4>Fictional startup landing page</h4>
+          <p>A single page marketing site for a fictional web startup. I designed, coded, and copywrote the whole site for a class assignment exploring rhetoric on the web.</p>
+          <dl>
+            <dt>My role:</dt>
+            <dd>Everything!</dd>
+            <dt>Browser compatibility:</dt>
+            <dd>All modern browsers, IE8+</dd>
+          </dl>
+          <p><a href="http://publishr.peterjmags.com/">View project</a><br>
+        </div>
+        <div id="gallery-03" class="span8 swipe">
+          <div class="gallery-inner">
+            <ul>
+              <li class="active">
+                <img src="img/publishr-1.jpg" alt="Publishr">
+              </li>
+              <li>
+                <img src="img/publishr-2.jpg" alt="Publishr">
+              </li>
+              <li>
+                <img src="img/publishr-3.jpg" alt="Publishr">
+              </li>
+            </ul>
+          </div>
+          <div class="gallery-controls">
+            <a class="prev" href="#">&lsaquo;</a>
+            <a class="next" href="#">&rsaquo;</a>
+          </div>
+        </div>
+      </article>
+      <hr>
+
+      <article class="project web-project row-fluid">
+        <div class="span4">
+          <h3>IsoAge Technologies</h3>
+          <h4>WordPress theme development</h4>
+          <p>Kaptiv8 Marketing sent me a Photoshop mockup of a website design for one of their clients. Three days later, I delivered a flexible, ready-to-launch WordPress theme and site.</p>
+          <dl>
+            <dt>My role:</dt>
+            <dd>Theme development, site deployment</dd>
+            <dt>Browser compatibility:</dt>
+            <dd>All modern browsers, IE7+</dd>
+          </dl>
+          <p><a href="http://www.isoagetechnologies.com/">View live site</a></p>
+          <p><small>Note that Kaptiv8 added a few of their own elements to the theme prior to launch. <a href="http://clients.peterjmags.com/isoage/">View it on my staging server</a> if you'd like to see only my code.</small></p>
+        </div>
+        <div id="gallery-04" class="span8 swipe">
+          <div class="gallery-inner">
+            <ul>
+              <li class="active">
+                <img src="img/isoage-1.jpg" alt="IsoAge Technologies">
+              </li>
+              <li>
+                <img src="img/isoage-2.jpg" alt="IsoAge Technologies">
+              </li>
+              <li>
+                <img src="img/isoage-3.jpg" alt="IsoAge Technologies">
+              </li>
+            </ul>
+          </div>
+          <div class="gallery-controls">
+            <a class="prev" href="#">&lsaquo;</a>
+            <a class="next" href="#">&rsaquo;</a>
+          </div>
+        </div>
+      </article>
+      <hr>
+
+      <article class="project web-project row-fluid">
+        <div class="span4">
+          <h3>SpotKnot</h3>
+          <h4>Prototype built with Django</h4>
+          <p><strong>My role: </strong>Layout and concept, front-end and back-end developer, design collaborator</p>
+          <p><a href="http://public.spotknot.peterjmags.com/">View prototype</a></p>
+        </div>
+        <div id="gallery-05" class="span8 swipe">
+          <div class="gallery-inner">
+            <ul>
+              <li class="active">
+                <img src="img/spotknot-1.png" alt="SpotKnot">
+              </li>
+              <li>
+                <img src="img/spotknot-2.png" alt="SpotKnot">
+              </li>
+              <li>
+                <img src="img/spotknot-3.png" alt="SpotKnot">
+              </li>
+            </ul>
+          </div>
+          <div class="gallery-controls">
+            <a class="prev" href="#">&lsaquo;</a>
+            <a class="next" href="#">&rsaquo;</a>
+          </div>
+        </div>
+      </article>
+      <hr>
+
+      <article class="project web-project row-fluid">
+        <div class="span4">
+          <h3>Aldo Zelnick</h3>
+          <h4>Built with Drupal</h4>
+          <p>Aldo Zelnick is a series of excellent graphic novels for kids, written by Karla Oceanak and illustrated by Kendra Spanjer. I built this site for them back in December 2009, and we continue to expand it today.</p>
+          <dl>
+            <dt>My role:</dt>
+            <dd>Design collaborator, sole developer</dd>
+            <dt>Browser compatibility:</dt>
+            <dd>All modern browsers, IE7+</dd>
+          </dl>
+          <p><a href="http://www.aldozelnick.com/">View live website</a></p>
+        </div>
+        <div id="gallery-06" class="span8 swipe">
+          <div class="gallery-inner">
+            <ul>
+              <li class="active">
+                <img src="img/aldo-zelnick-1.jpg" alt="AldoZelnick.com">
+              </li>
+              <li>
+                <img src="img/aldo-zelnick-2.jpg" alt="AldoZelnick.com">
+              </li>
+            </ul>
+          </div>
+          <div class="gallery-controls">
+            <a class="prev" href="#">&lsaquo;</a>
+            <a class="next" href="#">&rsaquo;</a>
+          </div>
+        </div>
+      </article>
+      <hr>
+
+      <article class="project web-project row-fluid">
+        <div class="span4">
+          <h3>Translate<sup>2</sup></h3>
+          <h4>CSS3 and JS experiment</h4>
+          <p>Inspired by a suggestion in a forum post. This is one of my early experiments with CSS-based animation. Naturally, I went a bit crazy with it. (Try hovering over the yellow "s" in the title.)</p>
+          <dl>
+            <dt>My role:</dt>
+            <dd>Design, development</dd>
+            <dt>Browser compatibility:</dt>
+            <dd>Chrome, Safari, Firefox</dd>
+          </dl>
+          <p><a href="http://peterjmags.com/translate-squared/">View project</a></p>
+        </div>
+        <div id="gallery-07" class="span8 swipe">
+          <div class="gallery-inner">
+            <ul>
+              <li class="active">
+                <img src="img/translate-squared-1.jpg" alt="Translate Squared">
+              </li>
+              <li>
+                <img src="img/translate-squared-2.jpg" alt="Translate Squared">
+              </li>
+            </ul>
+          </div>
+          <div class="gallery-controls">
+            <a class="prev" href="#">&lsaquo;</a>
+            <a class="next" href="#">&rsaquo;</a>
+          </div>
+        </div>
+      </article>
+      <hr>
+
+      <article class="project web-project row-fluid">
+        <div class="span4">
+          <h3>Krajec.com</h3>
+          <h4>Built with Drupal</h4>
+          <p>Russ Krajec, a patent attorney from Colorado, approached Linden (my company at the time) to rebuild and redesign his blog site. This was one of my favorite projects at Linden.</p>
+          <dl>
+            <dt>My role:</dt>
+            <dd>Design collaborator, sole developer, content strategist</dd>
+            <dt>Browser compatibility:</dt>
+            <dd>All modern browsers, IE7+</dd>
+          </dl>
+          <p><a href="http://www.krajec.com/">View live website</a></p>
+        </div>
+        <div id="gallery-08" class="span8">
+          <div class="gallery-inner">
+            <img src="img/krajec.jpg" alt="Krajec.com">
+          </div>
+        </div>
+      </article>
+      <hr>
+
+      <article class="project web-project row-fluid">
+        <div class="span4">
+          <h3>The Cooking Cardiologist</h3>
+          <h4>Built with Drupal</h4>
+          <p>Dr. Richard Collins, a.k.a. The Cooking Cardiologist, was another client of Linden's. We built him this site to host to his healthy recipes, blog posts, and books.</p>
+          <dl>
+            <dt>My role:</dt>
+            <dd>Design collaborator, sole developer</dd>
+            <dt>Browser compatibility:</dt>
+            <dd>All modern browsers, IE7+</dd>
+          </dl>
+          <p><a href="http://thecookingcardiologist.com/">View live website</a></p>
+        </div>
+        <div id="gallery-09" class="span8">
+          <div class="gallery-inner">
+            <img src="img/cooking-cardio.jpg" alt="TheCookingCardiologist.com">
+          </div>
+        </div>
+      </article>
+    </div>
+{% endblock %}
