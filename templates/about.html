@@ -1,0 +1,53 @@
+{% extends "_base.html" %}
+{% set page_title = "About Me" %}
+{% set root_classes = "about" %}
+{% set active_page = "about" %}
+{% set page_h1 = "<span>About me</span>" %}
+{% set page_h2 = "<span>Background, blood type, medical history... </span><br><span>Well, maybe not <em>that</em> specific.</span>" %}
+{% block body %}
+
+    <div class="container">
+      <div class="row-fluid">
+        <div class="span7">
+          <h2>The long version</h2>
+          <p>I'm a designer and developer, but it seems I never can quite nail down an official title for myself. Web designer, interaction designer, front-end engineer, UI developer... the labels I see tossed around on the web never feel right. Some might call me a "design hacker". Essentially, I'm a coder who designs and a designer who codes.</p>
+          <p>My coder half loves writing HTML and CSS—I've been doing so since I was about 12, and professionally now for about six years. I've written a fair amount of framework-based JavaScript (mostly jQuery) during that time, but recently, I've been learning JavaScript from the ground up in an attempt to wield it properly. I also enjoy working on the back end. Early on, I slogged around in surface-level PHP (primarily via Drupal and WordPress), but then I discovered Python, Django, and the joys of microframeworks. I'm always eager to dive in and learn new frameworks, tools, and languages. (I don't claim to be an expert back end developer, but I love to work with them!)</p>
+          <p>My designer half loves building elegant, sensible interfaces, and I'm a vocal advocate for the user. I'm comfortable in every stage of the design process, from initial concept to wireframing, rapid prototyping, and usability testing. This summer, I completed my BFA in Graphic Design at Colorado State University, where I became intimately familiar with branding and identity, typography, layout, and color theory. Of course, I'm also extremely proficient with the tools of the trade: InDesign, Illustrator, and Photoshop.</p>
+          <p>At CSU, I took (and loved) classes in branding and identity, layout, typography, and color theory. However, because of my long background working on the web, I also pursued my own studies in user interface and user experience, gobbling up books like [Don't Make Me Think], [Designed for Use], [Getting Real]... I discovered a particular passion and penchant for typography, one that significantly (informs, drives?) my work on the web.</p>
+        </div>
+        <div class="span4 offset1 sidebar">
+          <h3>In a nutshell</h3>
+          <ul>
+            <li>Peter Magenheimer</li>
+            <li>Born in 1987</li>
+            <li>Design hacker</li>
+            <li>Currently lives in <a href="http://en.wikipedia.org/wiki/Fort_Collins,_Colorado">Fort Collins, CO, USA</a></li>
+          </ul>
+          <h4>The coder side</h4>
+          <ul>
+            <li>HTML5 and CSS3 expert / afficionado</li>
+            <li>jQuery for prototyping, effects</li>
+            <li>Now learning JavaScript properly, from the ground up</li>
+            <li>Python (Django, Flask, etc), PHP (Wordpress, Drupal)</li>
+            <li>Heavy git user (seriously, I use it for everything)</li>
+            <li>Countless templating engines</li>
+          </ul>
+          <h4>The designer side</h4>
+          <ul>
+            <li>BFA in Graphic Design from Colorado State University</li>
+            <li>User-centered design</li>
+            <li>Sensible, elegant interfaces</li>
+            <li>Comfortable in every stage of the process<br>
+            <li>Loves designing in code</li>
+            <li>Branding and identity</li>
+            <li>Typography fanatic</li>
+            <li>InDesign, Illustrator, Photoshop</li>
+          </ul>
+          <h3>Résumé</h3>
+          <p><a href="#">Download a PDF of my resume</a></p>
+          <h3>Testimonials</h3>
+          <p><a href="#">Download a PDF of some kind words from clients and coworkers. I love these [guys].</a></p>
+        </div>
+      </div>
+    </div>
+{% endblock %}
