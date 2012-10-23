@@ -26,7 +26,7 @@
           <ul class="nav">{% for href, id, caption in navigation_bar %}
             <li{% if id == active_page %} class="active"{% endif
             %}><a href="{{ href|e }}">{{ caption|e }}</a></li>
-            {%- endfor %}  
+            {%- endfor %}
           </ul>
           <select>
             <option value="">Select</option>{% for href, id, caption in navigation_bar %}
@@ -44,7 +44,7 @@
         <h2>{{ page_h2 }}</h2>
       </div>
     </header>
-    {% block body %}
+    {%- block body %}
     {% endblock %}
     {%- block footer %}
     <footer>
@@ -54,8 +54,9 @@
           <a class="credits" href="#">Credits and acknowledgements</a></p>
       </div>
     </footer>
-    {% endblock %}
+    {%- endblock %}
     {%- block js %}
+
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/swipe.min.js"></script>
@@ -63,3 +64,4 @@
     {%- endblock %}
   </body>
 </html>
+
