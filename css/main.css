@@ -98,6 +98,10 @@ html.contact .masthead {
   margin-bottom: 30px;
 }
 
+.features img {
+  border-radius: 75px;
+}
+
 .project {
   margin-bottom: 30px;
 }
