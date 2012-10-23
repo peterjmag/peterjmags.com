@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-us" class="{{ root_classes }}">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ '%s | ' % page_title if page_title }}Peter Magenheimer | Web Designer and Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% block css -%}
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    {%- endblock %}
+  </head>
+  <body>
+    {% set navigation_bar = [
+        ('index.html', 'home', 'Home'),
+        ('web-work.html', 'web-work', 'Web Work'),
+        ('print-and-identity-work.html', 'print-and-identity-work', 'Print & Identity Work'),
+        ('about.html', 'about', 'About'),
+        ('contact.html', 'contact', 'Contact')
+    ] -%}
+    {% set active_page = active_page|default('home') -%}
+    <nav class="navbar navbar-fixed-top navbar-inverse">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="index.html">peterjmags.com</a>
+          <ul class="nav">{% for href, id, caption in navigation_bar %}
+            <li{% if id == active_page %} class="active"{% endif
+            %}><a href="{{ href|e }}">{{ caption|e }}</a></li>
+            {%- endfor %}  
+          </ul>
+          <select>
+            <option value="">Select</option>{% for href, id, caption in navigation_bar %}
+            <option value="{{ href|e }}"{% if id == active_page %} selected="selected"{% endif
+            %}>{{ caption|e }}</option>
+            {%- endfor %}
+          </select>
+        </div>
+      </div>
+    </nav>
+
+    <header class="masthead">
+      <div class="container">
+        <h1>{{ page_h1 }}</h1>
+        <h2>{{ page_h2 }}</h2>
+      </div>
+    </header>
+    {% block body %}
+    {% endblock %}
+    {%- block footer %}
+    <footer>
+      <div class="container">
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy;2012  <a href="mailto:hi@peterjmags.com">Peter Magenheimer</a><br>
+          <a class="credits" href="#">Credits and acknowledgements</a></p>
+      </div>
+    </footer>
+    {% endblock %}
+    {%- block js %}
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/swipe.min.js"></script>
+    <script src="js/script.js"></script>
+    {%- endblock %}
+  </body>
+</html>
