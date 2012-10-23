@@ -236,6 +236,12 @@ html.contact .masthead {
 }
 */
 
+footer {
+  background: #EEE;
+  padding: 20px;
+  border-top: 1px solid #DDD;
+}
+
 @media (max-width: 320px) {
   .navbar {
     text-align: center;
