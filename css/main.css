@@ -99,6 +99,7 @@ html.contact .masthead {
 }
 
 .features img {
+  border: 3px solid #222;
   border-radius: 75px;
 }
 
