@@ -290,6 +290,13 @@ html.touch .gallery-controls a {
   border: 2px solid #DDD;
 }
 
+.about-portrait {
+  width: 150px;
+  float: right;
+  border: 2px solid #CCC;
+  margin: 0 0 10px 30px;
+}
+
 .email-link {
   font-size: 26px;
 }
@@ -324,6 +331,11 @@ footer {
   .navbar select {
     float: none;
     margin: 0 0 12px;
+  }
+
+  .about-portrait {
+    float: none;
+    margin-left: 0;
   }
 }
 
