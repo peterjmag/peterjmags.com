@@ -218,11 +218,16 @@ html.contact .masthead {
 }
 */
 
+.print-project {
+  text-align: center;
+}
+
 .print-project p {
   margin-top: 30px;
 }
 
 .print-project .details {
+  text-align: left;
   margin-bottom: 30px;
 }
 
