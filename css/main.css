@@ -327,9 +327,9 @@ footer {
 
 @media (max-width: 480px) {
   .project .gallery-inner {
-    -webkit-box-shadow: none;
-       -moz-box-shadow: none;
-            box-shadow: none;
+    -webkit-box-shadow: 0 10px 15px -9px #444;
+       -moz-box-shadow: 0 10px 15px -9px #444;
+            box-shadow: 0 10px 15px -9px #444;
     margin-left: -20px;
     margin-right: -20px;
   }
