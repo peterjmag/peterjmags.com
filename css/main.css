@@ -3,7 +3,7 @@
    ========================================================================== */
 
 body {
-  font-family: "Chaparral Pro", serif;
+  font-family: "chaparral-pro", serif;
   font-size: 18px;
   line-height: 24px;
   -webkit-font-smoothing: antialiased;
@@ -12,7 +12,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Proxima Nova", sans-serif;
+  font-family: "proxima-nova", sans-serif;
 }
 
 hr {
@@ -254,7 +254,7 @@ html.touch .gallery-controls span {
   width: 40px;
   height: 40px;
   margin-top: -20px;
-  font-family: "Proxima Nova", sans-serif;
+  font-family: "proxima-nova", sans-serif;
   font-size: 40px;
   font-weight: 100;
   line-height: 35px;
@@ -389,7 +389,7 @@ footer {
   }
 
   .navbar .nav li {
-    font-family: "Proxima Nova", sans-serif;
+    font-family: "proxima-nova", sans-serif;
     font-size: 17px;
     line-height: 26px;
   }
