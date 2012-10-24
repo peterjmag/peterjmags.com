@@ -307,6 +307,7 @@ footer {
   background: #EEE;
   padding: 20px;
   border-top: 1px solid #DDD;
+  margin: 0 -20px;
 }
 
 @media (max-width: 320px) {
@@ -432,6 +433,10 @@ footer {
   .project.column2 h3 {
     padding-left: 20px;
     margin-left: -20px;
+  }
+
+  footer {
+    margin: 0;
   }
 }
 
