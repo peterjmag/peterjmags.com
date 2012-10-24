@@ -325,6 +325,16 @@ footer {
   }
 }
 
+@media (max-width: 480px) {
+  .project .gallery-inner {
+    -webkit-box-shadow: none;
+       -moz-box-shadow: none;
+            box-shadow: none;
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+}
+
 @media (max-width: 767px) {
   .alert-container .browser-compatibility:first-child {
     margin-left: 0;
