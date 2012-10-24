@@ -122,10 +122,10 @@ html.contact .masthead {
 
 .alert-container {
   margin-bottom: 0;
-  -webkit-transition: margin-bottom .05s linear;
-     -moz-transition: margin-bottom .05s linear;
-       -o-transition: margin-bottom .05s linear;
-          transition: margin-bottom .05s linear;
+  -webkit-transition: margin-bottom 0.05s linear;
+     -moz-transition: margin-bottom 0.05s linear;
+       -o-transition: margin-bottom 0.05s linear;
+          transition: margin-bottom 0.05s linear;
 }
 
 .alert-container.empty {
@@ -134,10 +134,10 @@ html.contact .masthead {
 
 .fade {
   max-height: 0;
-  -webkit-transition: all .25s linear;
-     -moz-transition: all .25s linear;
-       -o-transition: all .25s linear;
-          transition: all .25s linear;
+  -webkit-transition: all 0.25s linear;
+     -moz-transition: all 0.25s linear;
+       -o-transition: all 0.25s linear;
+          transition: all 0.25s linear;
 }
 
 .fade.in {
@@ -193,6 +193,7 @@ html.contact .masthead {
   filter: alpha(opacity=50);
   -webkit-transition: 0.3s;
      -moz-transition: 0.3s;
+       -o-transition: 0.3s;
           transition: 0.3s;
 }
 
@@ -283,6 +284,7 @@ footer {
   .navbar a {
     -webkit-transition: 0.3s;
        -moz-transition: 0.3s;
+         -o-transition: 0.3s;
             transition: 0.3s;
   }
 
