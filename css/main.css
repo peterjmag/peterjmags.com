@@ -185,7 +185,7 @@ html.contact .masthead {
 }
 
 .alert-container.empty {
-  margin-bottom: -30px;
+  margin-bottom: -10px;
 }
 
 .fade {
@@ -483,6 +483,10 @@ footer {
 
   .gallery-controls {
     min-height: 20px;
+  }
+
+  .alert-container.empty {
+    margin-bottom: -30px;
   }
 
   .project.column2 h3 {
