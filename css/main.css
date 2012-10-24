@@ -95,12 +95,68 @@ html.contact .masthead {
 }
 
 .features {
+  text-align: center;
   margin-bottom: 30px;
 }
 
-.features img {
-  border: 3px solid #222;
-  border-radius: 75px;
+.features .feature-link {
+  -webkit-transition: all 0.3s;
+     -moz-transition: all 0.3s;
+       -o-transition: all 0.3s;
+          transition: all 0.3s;
+}
+
+.features .feature-link:hover {
+  text-decoration: none;
+}
+
+.features .icon,
+.features .icon span {
+  width: 150px;
+  height: 150px;
+  background: url("img/home-features-sprite.jpg") no-repeat;
+}
+
+.features .icon {
+  background: url("img/home-features-sprite.jpg") no-repeat;
+  margin: 0 auto 20px;
+}
+
+.features .icon span {
+  display: block;
+  opacity: 1;
+  -webkit-transition: all 0.3s;
+     -moz-transition: all 0.3s;
+       -o-transition: all 0.3s;
+          transition: all 0.3s;
+}
+
+.features .icon span:hover {
+  opacity: 0;
+}
+
+.features .wing {
+  background-position: left bottom;
+}
+
+.features .wing span {
+  background-position: left top;
+}
+
+.features .cogs {
+  background-position: center bottom;
+}
+
+.features .cogs span {
+  background-position: center top;
+}
+
+.features .berlin {
+  background-position: right bottom;
+}
+
+.features .berlin span {
+  background-position: right top;
 }
 
 .project {
