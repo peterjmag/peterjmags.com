@@ -229,6 +229,7 @@ html.contact .masthead {
 }
 
 .gallery-controls span {
+  visibility: hidden;
   color: #BBB;
   font-size: 30px;
   padding: 0 2px;
@@ -236,6 +237,10 @@ html.contact .masthead {
 
 .gallery-controls .on {
   color: #333;
+}
+
+html.touch .gallery-controls span {
+  visibility: visible;
 }
 
 .gallery-controls a {
@@ -262,6 +267,10 @@ html.contact .masthead {
      -moz-transition: 0.3s;
        -o-transition: 0.3s;
           transition: 0.3s;
+}
+
+html.touch .gallery-controls a {
+  display: none;
 }
 
 .gallery-controls .prev {
