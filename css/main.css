@@ -224,8 +224,12 @@ html.contact .masthead {
 
 .gallery-controls {
   position: relative;
-  min-height: 20px;
+  min-height: 40px;
   text-align: center;
+}
+
+html.touch .gallery-controls {
+  min-height: 20px;
 }
 
 .gallery-controls span {
@@ -466,6 +470,10 @@ footer {
 
   .project {
     margin-bottom: 30px;
+  }
+
+  .gallery-controls {
+    min-height: 20px;
   }
 
   .project.column2 h3 {
