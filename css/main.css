@@ -320,6 +320,10 @@ html.touch .gallery-controls a {
   border: 2px solid #DDD;
 }
 
+.email-link {
+  font-size: 26px;
+}
+
 /*
 .masthead .container {
   position: absolute;
