@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 
 hr {
   width: 60%;
-  margin: 40px auto;
+  margin: 20px auto;
 }
 
 dt {
@@ -160,7 +160,7 @@ html.contact .masthead {
 }
 
 .project {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .project h3 {
@@ -362,6 +362,11 @@ footer {
 }
 
 @media (min-width: 768px) {
+  hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
   .navbar {
     -webkit-box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
        -moz-box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
@@ -458,6 +463,10 @@ footer {
   .features h3 {
     font-size: 30px;
     line-height: 36px;
+  }
+
+  .project {
+    margin-bottom: 30px;
   }
 
   .project.column2 h3 {
