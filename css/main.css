@@ -210,7 +210,7 @@ html.contact .masthead {
 }
 
 .web-project .span4 {
-  padding-right: 2.9914529914529915%
+  margin-bottom: 20px;
 }
 
 .gallery-inner li {
@@ -443,6 +443,11 @@ footer {
   .project.column2 h3 {
     padding-left: 20px;
     margin-left: -20px;
+  }
+
+  .web-project .span4 {
+    padding-right: 2.9914529914529915%;
+    margin-bottom: 0;
   }
 
   footer {
