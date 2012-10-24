@@ -300,6 +300,57 @@ html.touch .gallery-controls a {
   font-size: 26px;
 }
 
+.social {
+  display: block;
+  line-height: 26px;
+  margin-bottom: 4px;
+}
+
+.social span {
+  float: left;
+  width: 24px;
+  height: 24px;
+  background: url("img/social-icons-24.png") no-repeat;
+  opacity: 0.8;
+  margin-right: 6px;
+  -webkit-transition: 0.3s;
+     -moz-transition: 0.3s;
+       -o-transition: 0.3s;
+          transition: 0.3s;
+}
+
+.social:hover span {
+  opacity: 1;
+}
+
+.twitter span {
+  background-position: -24px 0;
+}
+
+.facebook span {
+  background-position: -48px 0;
+}
+
+.google-plus span {
+  background-position: right 0;
+}
+
+.stackoverflow span {
+  background-position: 0 -24px;
+}
+
+.github span {
+  background-position: -24px -24px;
+}
+
+.hackernews span {
+  background-position: -48px -24px;
+}
+
+.last-fm span {
+  background-position: right -24px;
+}
+
 /*
 .masthead .container {
   position: absolute;
@@ -491,6 +542,10 @@ footer {
   .web-project .span4 {
     padding-right: 2.9914529914529915%;
     margin-bottom: 0;
+  }
+
+  html.contact .main-column {
+    padding-right: 2.9914529914529915%;
   }
 
   footer {
