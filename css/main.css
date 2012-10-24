@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 
 hr {
   width: 60%;
-  margin: 20px auto;
+  margin: 15px auto;
 }
 
 dt {
@@ -350,8 +350,7 @@ footer {
     -webkit-box-shadow: 0 10px 15px -9px #444;
        -moz-box-shadow: 0 10px 15px -9px #444;
             box-shadow: 0 10px 15px -9px #444;
-    margin-left: -20px;
-    margin-right: -20px;
+    margin: 0 -20px 15px;
   }
 }
 
