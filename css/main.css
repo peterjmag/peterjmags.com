@@ -95,64 +95,32 @@ html.contact .masthead {
   margin-bottom: 30px;
 }
 
-.features .feature-link {
+.features .feature-link,
+.features img {
   -webkit-transition: all 0.3s;
      -moz-transition: all 0.3s;
        -o-transition: all 0.3s;
           transition: all 0.3s;
 }
 
-.features .feature-link:hover {
+.feature:hover .feature-link {
   text-decoration: none;
 }
 
-.features .icon,
-.features .icon span {
-  width: 150px;
-  height: 150px;
-  background: url("img/home-features-sprite.jpg") no-repeat;
-}
-
-.features .icon {
-  background: url("img/home-features-sprite.jpg") no-repeat;
-  margin: 0 auto 20px;
-}
-
-.features .icon span {
-  display: block;
+.features img {
+  position: relative;
+  top: 0;
   opacity: 1;
-  -webkit-transition: all 0.3s;
-     -moz-transition: all 0.3s;
-       -o-transition: all 0.3s;
-          transition: all 0.3s;
+  -webkit-box-shadow: 0 10px 15px -5px #444;
+     -moz-box-shadow: 0 10px 15px -5px #444;
+       -o-box-shadow: 0 10px 15px -5px #444;
+          box-shadow: 0 10px 15px -5px #444;
+  margin-bottom: 1.5em;
 }
 
-.features .icon span:hover {
-  opacity: 0;
-}
-
-.features .wing {
-  background-position: left bottom;
-}
-
-.features .wing span {
-  background-position: left top;
-}
-
-.features .cogs {
-  background-position: center bottom;
-}
-
-.features .cogs span {
-  background-position: center top;
-}
-
-.features .berlin {
-  background-position: right bottom;
-}
-
-.features .berlin span {
-  background-position: right top;
+.feature:hover img {
+  opacity: 0.8;
+  top: -5px;
 }
 
 .project {
@@ -485,6 +453,10 @@ footer {
   .masthead h1 span {
     margin-left: -9000px;
     padding-left: 9025px;
+  }
+
+  .features {
+    margin-bottom: 50px;
   }
 
   .features h3 {
