@@ -225,6 +225,17 @@ html.contact .masthead {
 .gallery-controls {
   position: relative;
   min-height: 20px;
+  text-align: center;
+}
+
+.gallery-controls span {
+  color: #BBB;
+  font-size: 30px;
+  padding: 0 2px;
+}
+
+.gallery-controls .on {
+  color: #333;
 }
 
 .gallery-controls a {

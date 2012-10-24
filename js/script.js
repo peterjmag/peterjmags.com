@@ -21,7 +21,22 @@ $(function() {
     $('.swipe').each(function() {
         var galleryInner = $(this).children('.gallery-inner')[0];
         var galleryControls = $(galleryInner).next('.gallery-controls');
-        var slider = new Swipe(galleryInner);
+        var itemCount = $(galleryInner).find('li').length;
+        for (var i = itemCount - 1; i >= 0; i--) {
+            $(galleryControls).append('<span>&bull;</span>');
+        }
+        var bullets = $(galleryControls).children('span');
+        $(bullets[0]).addClass('on');
+
+        var slider = new Swipe(galleryInner, {
+            callback: function(e, pos) {
+                var i = bullets.length;
+                while (i--) {
+                    bullets[i].className = ' ';
+                }
+                bullets[pos].className = 'on';
+            }
+        });
 
         var prevButton = galleryControls.children('.prev');
         var nextButton = galleryControls.children('.next');
