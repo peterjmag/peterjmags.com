@@ -132,6 +132,12 @@ html.contact .masthead {
   text-decoration: none;
 }
 
+.tooltip {
+  font-family: "proxima-nova", sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+}
+
 .features {
   text-align: center;
 }

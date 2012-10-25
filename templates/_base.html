@@ -50,7 +50,9 @@
         <h2><span>{{ page_h2.0 }} </span><br>
             <span>{{ page_h2.1 }}</span></h2>
       </div>
-      <a class="photo-info" href="#" rel="tooltip" data-placement="left" data-original-title="Tooltip on left">i</a>
+      {% if photo_info -%}
+      <a class="photo-info" href="#" rel="tooltip" data-placement="left" data-original-title="{{ photo_info }}">i</a>
+      {%- endif %}
     </header>
     {%- block body %}
     {% endblock %}
