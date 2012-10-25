@@ -369,7 +369,7 @@ footer {
   white-space: nowrap;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 399px) {
   .navbar {
     text-align: center;
   }
