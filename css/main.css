@@ -86,11 +86,11 @@ header {
 }
 
 html.home .masthead {
-  background-image: url("img/home-header-770.jpg");
+  background-image: url("img/barcelona-sunset-770.jpg");
 }
 
 html.web-work .masthead {
-  background-image: url("img/web-work-header-770.jpg");
+  background-image: url("img/rome-wing-770.jpg");
 }
 
 html.print-work .masthead {
@@ -520,7 +520,7 @@ footer {
   }
 
   html.home .masthead {
-    background-image: url("img/home-header.jpg");
+    background-image: url("img/barcelona-sunset.jpg");
   }
 
   html.portfolio .masthead {
@@ -528,7 +528,7 @@ footer {
   }
 
   html.web-work .masthead {
-    background-image: url("img/web-work-header.jpg");
+    background-image: url("img/rome-wing.jpg");
   }
 
   html.print-work .masthead {
