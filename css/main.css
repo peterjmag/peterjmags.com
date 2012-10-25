@@ -311,12 +311,6 @@ html.touch .gallery-controls a {
   filter: alpha(opacity=90);
 }
 
-/*
-.print-project {
-  margin-left: 2.9914529914529915%
-}
-*/
-
 .print-project {
   text-align: center;
 }
@@ -399,13 +393,6 @@ html.touch .gallery-controls a {
 .last-fm span {
   background-position: right -24px;
 }
-
-/*
-.masthead .container {
-  position: absolute;
-  top: 0;
-}
-*/
 
 footer {
   background: #EEE;
