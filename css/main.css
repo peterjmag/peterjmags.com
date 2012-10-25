@@ -432,6 +432,10 @@ footer {
     margin: 0 0 12px;
   }
 
+  .masthead .photo-info {
+    display: none;
+  }
+
   .about-portrait {
     float: none;
     margin-left: 0;
