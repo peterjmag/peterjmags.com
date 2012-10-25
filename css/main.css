@@ -83,6 +83,11 @@ header {
   padding: 5px 20px;
 }
 
+html.no-rgba .masthead h1,
+html.no-rgba .masthead h2 {
+  background: url("img/black-50.png");
+}
+
 .masthead h1 {
   font-weight: 700;
 }
@@ -512,6 +517,11 @@ footer {
     padding: 5px 25px;
   }
 
+  html.no-rgba .masthead h1,
+  html.no-rgba .masthead h2 {
+    background: none;
+  }
+
   html.home .masthead {
     background-image: url("img/barcelona-sunset.jpg");
   }
@@ -549,6 +559,10 @@ footer {
   .masthead span {
     background: rgba(0, 0, 0, 0.6);
     padding: 1px 25px;
+  }
+
+  html.no-rgba .masthead span {
+    background: url("img/black-50.png");
   }
 
   .masthead h1 span {
