@@ -14,7 +14,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "proxima-nova", sans-serif;
+  font-family: "proxima-nova-n7", "proxima-nova", sans-serif;
+  font-weight: 700;
 }
 
 hr {
@@ -23,6 +24,7 @@ hr {
 }
 
 dt {
+  font-family: "chaparral-pro-i4", "chaparral-pro", "palatino", "georgia", serif;
   font-weight: normal;
   font-style: italic;
 }
@@ -88,12 +90,9 @@ html.no-rgba .masthead h2 {
   background: url("img/black-50.png");
 }
 
-.masthead h1 {
-  font-weight: 700;
-}
-
 .masthead h2 {
-  font-weight: normal;
+  font-family: "proxima-nova-n4", "proxima-nova", sans-serif;
+  font-weight: 400;
 }
 
 html.home .masthead {
@@ -127,6 +126,7 @@ html.contact .masthead {
   text-align: center;
   font-size: 24px;
   line-height: 27px;
+  font-family: "chaparral-pro-i4", "chaparral-pro", "palatino", "georgia", serif;
   font-weight: 700;
   font-style: italic;
   background: rgba(70, 70, 70, 0.3);
