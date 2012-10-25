@@ -138,8 +138,9 @@ html.contact .masthead {
 }
 
 .project h3 {
-  background: #DDD;
-  padding-left: 1000px;
+  line-height: 30px;
+  background: #E5E5E5;
+  padding: 5px 0 5px 1000px;
   margin-left: -1000px;
 }
 
