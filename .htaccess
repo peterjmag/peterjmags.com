@@ -10,3 +10,5 @@ RewriteRule ^(.+)$ $1.html [L]
   AddOutputFilterByType DEFLATE application/x-font-ttf application/x-font-otf
   AddOutputFilterByType DEFLATE font/truetype font/opentype
 </IfModule>
+
+Options -Indexes
