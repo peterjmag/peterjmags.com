@@ -195,7 +195,7 @@ html.contact .masthead {
   margin-bottom: -10px;
 }
 
-.fade {
+.browser-compatibility.fade {
   max-height: 0;
   -webkit-transition: all 0.25s linear;
      -moz-transition: all 0.25s linear;
@@ -203,7 +203,7 @@ html.contact .masthead {
           transition: all 0.25s linear;
 }
 
-.fade.in {
+.browser-compatibility.fade.in {
   max-height: 600px;
 }
 
