@@ -59,6 +59,10 @@ li {
   margin: 7px 6px 0 0;
 }
 
+header {
+  position: relative;
+}
+
 .masthead {
   color: #FFF;
   text-shadow: 2px 3px 1px #222;
@@ -99,6 +103,33 @@ html.about .masthead {
 
 html.contact .masthead {
   background-image: url("img/florence-sign-770.jpg");
+}
+
+.masthead .photo-info {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: block;
+  width: 26px;
+  height: 26px;
+  color: #FFF;
+  text-align: center;
+  font-size: 24px;
+  line-height: 27px;
+  font-weight: bold;
+  font-style: italic;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 2em;
+  text-shadow: 0 -1px 0 #333;
+  -webkit-transition: all 0.3s;
+     -moz-transition: all 0.3s;
+       -o-transition: all 0.3s;
+          transition: all 0.3s;
+}
+
+.masthead .photo-info:hover {
+  background: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
 }
 
 .features {

@@ -18,6 +18,8 @@ $(function() {
       $(this).parent('.alert-container').addClass('empty');
     });
 
+    $('.photo-info').tooltip();
+
     $('.swipe').each(function() {
         var galleryInner = $(this).children('.gallery-inner')[0];
         var galleryControls = $(galleryInner).next('.gallery-controls');
