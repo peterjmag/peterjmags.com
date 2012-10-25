@@ -3,8 +3,10 @@
    ========================================================================== */
 
 body {
-  font-family: "chaparral-pro", "palatino", "georgia", serif;
+  font-family: "chaparral-pro-n4", "chaparral-pro", "palatino", "georgia", serif;
   font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
   line-height: 24px;
   -webkit-font-smoothing: antialiased;
      -moz-font-smoothing: antialiased;
@@ -81,6 +83,10 @@ header {
   padding: 5px 20px;
 }
 
+.masthead h1 {
+  font-weight: 700;
+}
+
 .masthead h2 {
   font-weight: normal;
 }
@@ -116,7 +122,7 @@ html.contact .masthead {
   text-align: center;
   font-size: 24px;
   line-height: 27px;
-  font-weight: bold;
+  font-weight: 700;
   font-style: italic;
   background: rgba(70, 70, 70, 0.3);
   border-radius: 2em;
