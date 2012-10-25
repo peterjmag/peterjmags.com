@@ -30,17 +30,17 @@
   </head>
   <body>
     {% set navigation_bar = [
-        ('index.html', 'home', 'Home'),
-        ('web-work.html', 'web-work', 'Web Work'),
-        ('print-and-identity-work.html', 'print-and-identity-work', 'Print & Identity Work'),
-        ('about.html', 'about', 'About'),
-        ('contact.html', 'contact', 'Contact')
+        ('/', 'home', 'Home'),
+        ('/web-work', 'web-work', 'Web Work'),
+        ('/print-and-identity-work', 'print-and-identity-work', 'Print & Identity Work'),
+        ('/about', 'about', 'About'),
+        ('/contact', 'contact', 'Contact')
     ] -%}
     {% set active_page = active_page|default('home') -%}
     <nav class="navbar navbar-fixed-top navbar-inverse">
       <div class="navbar-inner">
         <div class="container">
-          <a class="brand" href="index.html">peterjmags.com</a>
+          <a class="brand" href="/">peterjmags.com</a>
           <ul class="nav">{% for href, id, caption in navigation_bar %}
             <li{% if id == active_page %} class="active"{% endif
             %}><a href="{{ href|e }}">{{ caption|e }}</a></li>
