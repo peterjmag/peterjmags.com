@@ -343,6 +343,10 @@ html.touch .gallery-controls a {
   border: 2px solid #DDD;
 }
 
+.skip-to-bullets {
+  display: block;
+}
+
 .about-portrait {
   width: 150px;
   float: right;
@@ -596,6 +600,10 @@ footer {
   .web-project .span4 {
     padding-right: 2.9914529914529915%;
     margin-bottom: 0;
+  }
+
+  .skip-to-bullets {
+    display: none;
   }
 
   html.contact .main-column {
