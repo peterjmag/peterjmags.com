@@ -468,7 +468,7 @@ footer {
 @media (min-width: 768px) {
   hr {
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
 
   ul, ol {
