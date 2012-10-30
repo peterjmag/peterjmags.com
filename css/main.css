@@ -575,11 +575,6 @@ footer {
     padding-left: 9025px;
   }
 
-  .features h3 {
-    font-size: 30px;
-    line-height: 36px;
-  }
-
   .project {
     margin-bottom: 30px;
   }
@@ -683,5 +678,12 @@ footer {
 
   .masthead .container {
     padding-top: 60px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .features h3 {
+    font-size: 30px;
+    line-height: 36px;
   }
 }
