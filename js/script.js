@@ -10,12 +10,12 @@ var toggleButton = function(button, pos) {
 
 $(function() {
     $(".navbar select").change(function() {
-      window.location = $(this).find("option:selected").val();
+        window.location = $(this).find("option:selected").val();
     });
 
     $(".alert").alert();
     $('.browser-compatibility').bind('closed', function () {
-      $(this).parent('.alert-container').addClass('empty');
+        $(this).parent('.alert-container').addClass('empty');
     });
 
     $('.photo-info').tooltip();
