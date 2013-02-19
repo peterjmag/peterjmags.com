@@ -34,6 +34,12 @@ li {
   line-height: 24px;
 }
 
+.navbar {
+  -webkit-font-smoothing: antialiased;
+     -moz-font-smoothing: antialiased;
+          font-smoothing: antialiased;
+}
+
 .navbar-fixed-top {
   margin-bottom: 0;
 }
