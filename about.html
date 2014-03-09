@@ -3,30 +3,47 @@
   <head>
     <meta charset="utf-8">
     <title>About Me | Peter Magenheimer | Web Designer and Developer</title>
+    <meta name="description" content="Who I am, where I'm from, and what I love to do.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/bootstrap-responsive.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <script type="text/javascript" src="js/respond.min.js"></script>
+    <script type="text/javascript" src="//use.typekit.net/nuf1lxy.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script src="js/modernizr.custom.81984.js"></script>
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-3229148-2']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
   </head>
   <body>
     <nav class="navbar navbar-fixed-top navbar-inverse">
       <div class="navbar-inner">
         <div class="container">
-          <a class="brand" href="index.html">peterjmags.com</a>
+          <a class="brand" href="/">peterjmags.com</a>
           <ul class="nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="web-work.html">Web Work</a></li>
-            <li><a href="print-and-identity-work.html">Print &amp; Identity Work</a></li>
-            <li class="active"><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/web-work">Web Work</a></li>
+            <li><a href="/print-and-identity-work">Print &amp; Identity Work</a></li>
+            <li class="active"><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
           </ul>
           <select>
             <option value="">Select</option>
-            <option value="index.html">Home</option>
-            <option value="web-work.html">Web Work</option>
-            <option value="print-and-identity-work.html">Print &amp; Identity Work</option>
-            <option value="about.html" selected="selected">About</option>
-            <option value="contact.html">Contact</option>
+            <option value="/">Home</option>
+            <option value="/web-work">Web Work</option>
+            <option value="/print-and-identity-work">Print &amp; Identity Work</option>
+            <option value="/about" selected="selected">About</option>
+            <option value="/contact">Contact</option>
           </select>
         </div>
       </div>
@@ -34,53 +51,60 @@
 
     <header class="masthead">
       <div class="container">
-        <h1><span>About me</span></span></h1>
+        <h1><span>About me</span></h1>
         <h2><span>Background, blood type, medical history... </span><br>
             <span>Well, maybe not <em>that</em> specific.</span></h2>
       </div>
+      <a class="photo-info" href="#" data-placement="left" data-original-title="The Reichstag dome at sunset, Berlin, Germany">i</a>
     </header>
 
     <div class="container">
       <div class="row-fluid">
         <div class="span7">
+          <p class="skip-to-bullets"><a href="#in-a-nutshell">Short on time? Skip down to the short version.</a></p>
           <h2>The long version</h2>
-          <p>I'm a designer and developer, but it seems I never can quite nail down an official title for myself. Web designer, interaction designer, front-end engineer, UI developer... the labels I see tossed around on the web never feel right. Some might call me a "design hacker". Essentially, I'm a coder who designs and a designer who codes.</p>
-          <p>My coder half loves writing HTML and CSS—I've been doing so since I was about 12, and professionally now for about six years. I've written a fair amount of framework-based JavaScript (mostly jQuery) during that time, but recently, I've been learning JavaScript from the ground up in an attempt to wield it properly. I also enjoy working on the back end. Early on, I slogged around in surface-level PHP (primarily via Drupal and WordPress), but then I discovered Python, Django, and the joys of microframeworks. I'm always eager to dive in and learn new frameworks, tools, and languages. (I don't claim to be an expert back end developer, but I love to work with them!)</p>
-          <p>My designer half loves building elegant, sensible interfaces, and I'm a vocal advocate for the user. I'm comfortable in every stage of the design process, from initial concept to wireframing, rapid prototyping, and usability testing. This summer, I completed my BFA in Graphic Design at Colorado State University, where I became intimately familiar with branding and identity, typography, layout, and color theory. Of course, I'm also extremely proficient with the tools of the trade: InDesign, Illustrator, and Photoshop.</p>
-          <p>At CSU, I took (and loved) classes in branding and identity, layout, typography, and color theory. However, because of my long background working on the web, I also pursued my own studies in user interface and user experience, gobbling up books like [Don't Make Me Think], [Designed for Use], [Getting Real]... I discovered a particular passion and penchant for typography, one that significantly (informs, drives?) my work on the web.</p>
+          <img class="about-portrait" src="img/self-portrait-200.jpg" alt="Portrait">
+          <p>It seems I never can quite decide on an official title for myself. Web designer, interaction designer, front-end engineer, UI developer—the list of possible labels is seemingly endless. However, none of them feel quite right (though I am partial to &ldquo;design hacker&rdquo;). But to be honest, the title doesn't really matter. In essence, I'm a coder who designs and a designer who codes.</p>
+          <p>My coder half loves writing HTML and CSS. I built my first website when I was 12 years old, and I started making a career out of it when I was 18. During that time, I learned to supplement my HTML and CSS with jQuery, especially for prototyping and subtle effects. More recently, I've been learning JavaScript from the ground up in order to better take advantage of it without relying so heavily on libraries like jQuery. I also enjoy working on the back end (though I don't claim to be an expert back end developer). Early on in my career, I slogged around in surface-level PHP (primarily via <a href="http://drupal.org/">Drupal</a> and <a href="http://wordpress.org/">WordPress</a>), but then I discovered <a href="http://www.python.org/">Python</a>, <a href="https://www.djangoproject.com/">Django</a>, and the joys of <a href="http://flask.pocoo.org/">microframeworks</a>. Of course, experimenting with such a wide range of platforms means that I've learned to work with countless templating engines and theme layers. I'm always eager to dive in and learn new frameworks, tools, and languages.</p>
+          <p>My designer half loves building elegant, sensible interfaces, and I'm a vocal advocate for the user. I'm comfortable in every stage of the design process, from initial concept to wireframing, rapid prototyping, and usability testing. In summer 2012, I completed my BFA in Graphic Design at Colorado State University. At CSU, I took (and loved) classes in branding and identity, layout, color theory, and many other studio arts. During that time, I discovered a particular passion and penchant for typography. Of course, I also became extremely proficient with the tools of the trade: InDesign, Illustrator, and Photoshop. Because of my passion for the web, I also pursued my own studies in interaction design and user experience, gobbling up books like <a href="http://www.amazon.com/Dont-Make-Me-Think-Usability/dp/0321344758/ref=sr_1_1?ie=UTF8&amp;qid=1351107837&amp;sr=8-1&amp;keywords=don%27t+make+me+think">Don't Make Me Think</a>, <a href="http://www.amazon.com/Designed-Use-Create-Interfaces-Applications/dp/1934356751/ref=sr_1_1?ie=UTF8&amp;qid=1351107927&amp;sr=8-1&amp;keywords=designed+for+use">Designed for Use</a>, <a href="http://gettingreal.37signals.com/">Getting Real</a>, and more.</p>
+          <p>In early 2009, I decided to take time off from school to work full time at Linden, a local marketing firm. There, I built a web department from the ground up at a firm that already excelled in so many areas. As is so often the case in small businesses, I wore more hats than I could count. My responsibilities ranged from design, development (primarily with Drupal), writing proposals, project planning, content strategy, client training... The list was endless, and I loved it. We later hired a second web developer, and the two of us worked together to continue the growth of the department and the company. By the time I returned to school in spring 2011, I'd built websites for over 20 clients.</p>
+          <p>In April 2013, I uprooted and moved to Berlin to dive in to the young, exciting startup community here. I'm currently freelancing and consulting for clients from around the world, and ultimately, I'd like to find a job as a designer and/or front end developer at an exceedingly awesome web startup.</p>
         </div>
         <div class="span4 offset1 sidebar">
-          <h3>In a nutshell</h3>
+          <h3 id="in-a-nutshell">In a nutshell</h3>
           <ul>
             <li>Peter Magenheimer</li>
-            <li>Born in 1987</li>
-            <li>Design hacker</li>
-            <li>Currently lives in <a href="http://en.wikipedia.org/wiki/Fort_Collins,_Colorado">Fort Collins, CO, USA</a></li>
+            <li>Designer and developer</li>
+            <li>Living in Berlin</li>
+            <li>Born in 1987 in the Bay Area, CA</li>
+            <li>Grew up in <a href="http://en.wikipedia.org/wiki/Fort_Collins,_Colorado">Fort Collins, CO, USA</a></li>
+            <li>Currently a full time freelancer and consultant</li>
+            <li>Native English speaker</li>
+            <li>Conversational in Italian and German</li>
           </ul>
-          <h4>The coder side</h4>
+          <h4>The coder half</h4>
           <ul>
             <li>HTML5 and CSS3 expert / afficionado</li>
             <li>jQuery for prototyping, effects</li>
             <li>Now learning JavaScript properly, from the ground up</li>
-            <li>Python (Django, Flask, etc), PHP (Wordpress, Drupal)</li>
-            <li>Heavy git user (seriously, I use it for everything)</li>
+            <li>Python (Django, Flask, etc), PHP (WordPress, Drupal)</li>
             <li>Countless templating engines</li>
+            <li>Heavy git user (seriously, I use it for everything)</li>
           </ul>
-          <h4>The designer side</h4>
+          <h4>The designer half</h4>
           <ul>
             <li>BFA in Graphic Design from Colorado State University</li>
             <li>User-centered design</li>
-            <li>Sensible, elegant interfaces</li>
             <li>Comfortable in every stage of the process<br>
             <li>Loves designing in code</li>
-            <li>Branding and identity</li>
             <li>Typography fanatic</li>
+            <li>Branding and identity</li>
             <li>InDesign, Illustrator, Photoshop</li>
           </ul>
           <h3>Résumé</h3>
-          <p><a href="#">Download a PDF of my resume</a></p>
+          <p><a href="downloads/Peter%20Magenheimer%20-%20Resume.pdf">Download a PDF of my resume</a></p>
           <h3>Testimonials</h3>
-          <p><a href="#">Download a PDF of some kind words from clients and coworkers. I love these [guys].</a></p>
+          <p><a href="downloads/Peter%20Magenheimer%20-%20Testimonials.pdf">Download a PDF with some kind words from clients and coworkers</a></p>
         </div>
       </div>
     </div>
@@ -88,12 +112,12 @@
     <footer>
       <div class="container">
         <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy;2012  <a href="mailto:hi@peterjmags.com">Peter Magenheimer</a><br>
-          <a class="credits" href="#">Credits and acknowledgements</a></p>
+        <p>&copy;2012 <a class="no-wrap" href="mailto:hi@peterjmags.com">Peter Magenheimer</a></p>
       </div>
     </footer>
 
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.8.2.min.js"><\/script>')</script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/swipe.min.js"></script>
     <script src="js/script.js"></script>
